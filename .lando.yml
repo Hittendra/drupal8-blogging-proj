@@ -1,0 +1,6 @@
+name: lando-drupal8
+recipe: drupal8
+config:
+  webroot: .
+  database: 'mysql:8.0'
+  composer_version: 2.1.14
